@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogPostTemplate = ({
+const WorkItemTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
@@ -14,7 +14,7 @@ const BlogPostTemplate = ({
   return (
     <Layout location={location} title={siteTitle}>
       <article
-        className="blog-post"
+        className="work-item"
         itemScope
         itemType="http://schema.org/Article"
       >
@@ -31,7 +31,7 @@ const BlogPostTemplate = ({
           <Bio />
         </footer>
       </article>
-      <nav className="blog-post-nav">
+      <nav className="work-item-nav">
         <ul
           style={{
             display: `flex`,
@@ -70,10 +70,10 @@ export const Head = ({ data: { markdownRemark: post } }) => {
   )
 }
 
-export default BlogPostTemplate
+export default WorkItemTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
+  query WorkItemBySlug(
     $id: String!
     $previousPostId: String
     $nextPostId: String

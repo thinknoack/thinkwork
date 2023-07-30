@@ -9,19 +9,23 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `ThinkNoack`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Gregory Noack`,
+      summary: `I love dev. You should reach out.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A Portfolio site for UX Designer and Front End Developer Gregory Noack.`,
+    siteUrl: `https://thinknoack.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `thinknoack`,
+      linkedIn: `thinknoack`,
+      github: `thinknoack`,
+      gitlab: `thinknoack`,
     },
   },
   plugins: [
     `gatsby-plugin-image`,
+    "gatsby-transformer-remark",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -102,7 +106,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "ThinkNoack RSS Feed",
           },
         ],
       },
@@ -110,8 +114,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `ThinkNoack`,
+        short_name: `TN`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
