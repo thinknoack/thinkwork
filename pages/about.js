@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import DefaultLayout from "../layouts/DefaultLayout";
-import styles from '../styles/About.module.scss';
 
 export default function About() {
   return (
