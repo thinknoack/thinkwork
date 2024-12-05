@@ -31,7 +31,7 @@ const experienceData = [
         description: "Created static designs and integrated them into web pages using the latest philosophies and technologies for Squishymedia, a digital communications studio specializing in knowledge systems and interactive media."
     },
     {
-        title: "Front-End Developer & UX Designer",
+        title: "Front-End Developer & User Experience Designer",
         company: "ThinkNoack",
         dates: "Since 2008",
         description: "Development and design from Portland, Oregon."
