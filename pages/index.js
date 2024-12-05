@@ -16,7 +16,6 @@ export default function About() {
     <div className="col-container">
       <Head>
       <html lang="en" />
-      <link rel="preload" href="/gn.jpg" as="image" />
         <link
           rel="preload"
           href="https://p.typekit.net/p.css?s=1&k=dju5vil&ht=tk&f=1699.1703.48139.48140.48141.48142.55481&a=13721005&app=typekit&e=css"
