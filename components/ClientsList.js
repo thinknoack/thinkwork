@@ -51,9 +51,9 @@ export default function ClientsList() {
     <>
       <h2>Clients</h2>
       {clientsData.map((category, index) => (
-        <div>
+        <div key={index}>
           <h3>{category.category}</h3>
-          <ul key={index}>
+          <ul>
             {category.clients.map((client, clientIndex) => (
               <li key={clientIndex}>{client}</li>
             ))}
