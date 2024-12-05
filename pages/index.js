@@ -15,6 +15,7 @@ export default function About() {
   return (
     <div className="col-container">
       <Head>
+      <html lang="en" />
       <link rel="preload" href="/gn.jpg" as="image" />
         <link
           rel="preload"
