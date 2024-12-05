@@ -1,12 +1,85 @@
 $link-color: red;
 $link-color-hover: blue;
 
-$forest: #5d8e8b;
+$forest: #4B7270;
 $plum: #63475d;
 $cream: #fffddc;
 $coral: #ffe6d9;
 
-@import url("https://use.typekit.net/dju5vil.css");
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * barber-fill:
+ *   - http://typekit.com/eulas/00000000000000007735f02a
+ * barber-outline:
+ *   - http://typekit.com/eulas/00000000000000007735f02b
+ * barber-right:
+ *   - http://typekit.com/eulas/00000000000000007735f02c
+ * barber-shadow:
+ *   - http://typekit.com/eulas/00000000000000007735f02d
+ * cofo-sans-mono-variable:
+ *   - http://typekit.com/eulas/00000000000000007753652d
+ * gesta:
+ *   - http://typekit.com/eulas/000000000000000077584e63
+ *   - http://typekit.com/eulas/000000000000000077584e69
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2024-12-04 23:00:29 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=dju5vil&ht=tk&f=1699.1703.48139.48140.48141.48142.55481&a=13721005&app=typekit&e=css");
+
+@font-face {
+font-family:"gesta";
+src:url("https://use.typekit.net/af/954d59/000000000000000077584e63/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/954d59/000000000000000077584e63/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/954d59/000000000000000077584e63/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;font-display: swap;
+}
+
+@font-face {
+font-family:"gesta";
+src:url("https://use.typekit.net/af/d1fd39/000000000000000077584e69/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d1fd39/000000000000000077584e69/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d1fd39/000000000000000077584e69/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;font-display: swap;
+}
+
+@font-face {
+font-family:"barber-fill";
+src:url("https://use.typekit.net/af/637952/00000000000000007735f02a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/637952/00000000000000007735f02a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/637952/00000000000000007735f02a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;font-display: swap;
+}
+
+@font-face {
+font-family:"barber-outline";
+src:url("https://use.typekit.net/af/3c43ea/00000000000000007735f02b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/3c43ea/00000000000000007735f02b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/3c43ea/00000000000000007735f02b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;font-display: swap;
+}
+
+@font-face {
+font-family:"barber-right";
+src:url("https://use.typekit.net/af/6cb2da/00000000000000007735f02c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/6cb2da/00000000000000007735f02c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/6cb2da/00000000000000007735f02c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;font-display: swap;
+}
+
+@font-face {
+font-family:"barber-shadow";
+src:url("https://use.typekit.net/af/7658f3/00000000000000007735f02d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/7658f3/00000000000000007735f02d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/7658f3/00000000000000007735f02d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;font-display: swap;
+}
+
+@font-face {
+font-family:"cofo-sans-mono-variable";
+src:url("https://use.typekit.net/af/dc3a4b/00000000000000007753652d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/dc3a4b/00000000000000007753652d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/dc3a4b/00000000000000007753652d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;font-display: swap;
+}
+
+.tk-gesta { font-family: "gesta",sans-serif; }
+.tk-barber-fill { font-family: "barber-fill",sans-serif; }
+.tk-barber-outline { font-family: "barber-outline",sans-serif; }
+.tk-barber-right { font-family: "barber-right",sans-serif; }
+.tk-barber-shadow { font-family: "barber-shadow",sans-serif; }
+.tk-cofo-sans-mono-variable { font-family: "cofo-sans-mono-variable",sans-serif; }
 
 $barber-font-fill: "barber-fill", sans-serif;
 $barber-font-outline: "barber-outline", sans-serif;
