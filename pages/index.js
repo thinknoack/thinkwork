@@ -86,7 +86,7 @@ export default function About() {
             User Experience Design and based in Portland, Oregon.
           </p>
           <Image
-            src="/gn.jpg"
+            src="./gn.jpg"
             alt="graphic illustration style picture of Gregory Noack"
             width={300} // Specify dimensions to improve layout shift
             height={341}
