@@ -29,7 +29,7 @@ export default function About() {
             <span className="think">Think</span>
             <span className="noack">Noack</span>
           </h1>
-          <p>I am a Software Developer specializing in UX Design working at Stanford University from Portland, Oregon.</p>
+          <p>I am a Software Developer specializing in UX Design located in Portland, Oregon.</p>
           <img src="./gn.jpg" alt="graphic illustration style picture of Gregory Noack"/>
         </div>
       </div>
