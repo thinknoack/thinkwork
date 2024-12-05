@@ -14,6 +14,20 @@ const Home = () => {
         <h1>SLG</h1>
       </div> 
       <Head>
+      <link
+          rel="preload"
+          href="https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxP.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="https://fonts.gstatic.com/s/roboto/v29/KFOkCnqEu92Fr1Mu51xIIzc.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
         <title>ThinkNoack | The portfolio of Gregory Noack</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>        
