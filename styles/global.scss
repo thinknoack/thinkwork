@@ -218,7 +218,7 @@ img {
     font-family: $barber-font-fill;
     line-height: 1;
     font-size: clamp(25px, 5vw, 28px);
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
   }
   h3 {
     font-size: 19px;
@@ -298,12 +298,12 @@ img {
     }
   }
   h3 {
-    margin-bottom: 1rem;
+    margin-bottom: .1rem;
   }
   ul {
-    padding: 0;
+    padding-left: 15px;
     margin: 0;
-    list-style: none;
+    list-style: disc;
 
     li {
       font-size: 13px;
@@ -312,25 +312,6 @@ img {
 }
 
 /* Media Queries */
-
-/* Small Screens: 1 Column, Full-Width */
-
-// @media (max-width: 1430px), (max-height: 750px) {
-//   .col-container {
-//     grid-template-columns: 1fr; /* Single column */
-//     padding-right: 3rem;
-//   }
-//   .box{
-//     min-height: auto;
-//   }
-//   .c1 .b1 {
-//     min-height: calc(100vh - 6rem); /* Minimum height for boxes */
-//   }
-//   .c2,
-//   .c3 {
-//     min-height: auto;
-//   }
-// }
 
 @media (max-width: 1469px), (max-height: 774px) {
   #__next {
@@ -378,15 +359,17 @@ img {
   .c3 {
     .b1 {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
       > h2 {
         width: 100%;
       }
       > div {
         margin-bottom: 2vh;
         width: 100%;
-        margin: 0 0 1.5rem;
+        margin: 0 0 .8rem;
       }
     }
   }
@@ -453,7 +436,7 @@ img {
   }
 }
 
-@media (min-width: 1745px) and (min-height: 960px) {
+@media (min-width: 1745px) and (min-height: 900px) {
   #__next {
     display: flex;
     justify-content: center;
@@ -462,10 +445,11 @@ img {
   }
   .col-container {
     width: 1745px;
-    height: 960px;
+    height: 900px;
     margin: 0 auto;
+    padding: 0;
     .column {
-      min-height: calc(960px - 6rem);
+      min-height: calc(900px - 3rem);
     }
     .c1 {
       width: 480px;
@@ -477,9 +461,11 @@ img {
       width: 400px;
 
       .b1 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: flex-start;
         > h2 {
           width: 100%;
         }
@@ -494,7 +480,7 @@ img {
   }
 }
 
-@media (max-height: 870px) {
+@media (max-height: 899px) {
   .c1 .b1 img {
     max-width: 213px;
   }

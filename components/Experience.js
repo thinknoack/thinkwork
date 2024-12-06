@@ -40,8 +40,10 @@ const experienceData = [
 export default function Experience() {
 
     return (
+        <>
+        <h2>Experience</h2>
         <ul>
-            <h2>Experience</h2>
+            
             {experienceData.map((job, index) => (
                 <li key={index}>
                     <h3>{job.title}</h3>
@@ -50,5 +52,6 @@ export default function Experience() {
                 </li>
             ))}
         </ul>
+        </>
     );
 }

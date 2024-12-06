@@ -12,6 +12,7 @@ const clientsData = [
       "US Department of Veterans Affairs",
       "US Department of Agriculture",
       "National Institutes of Health",
+      "North Carolina Ports",
     ],
   },
   {
@@ -39,7 +40,6 @@ const clientsData = [
       "Dover Corporation",
       "HMH Agency",
       "Daimler",
-      "North Carolina Ports",
       "Univox Media",
       "Synapse Product Development",
     ],
